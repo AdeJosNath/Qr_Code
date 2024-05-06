@@ -1,0 +1,28 @@
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-Light-gray);
+}
+
+.qr_code {
+    background: var(--color-White);
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+    border-radius: 2rem;
+}
+
+img {
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {}
